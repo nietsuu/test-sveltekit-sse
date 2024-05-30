@@ -5,6 +5,6 @@
     sourceSSE("/", ["event0"]);
 
     setTimeout(() => {
-        sourceSSE("/", ["event0"]);
+        sourceSSE("/?asd", ["event0"]);
     }, 1000);
 </script>
